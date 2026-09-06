@@ -26,6 +26,9 @@ qt_add_qml_module(MyApp
         qml/Main.qml
 )
 
+# Hot reload
+#target_compile_definitions(MyApp PRIVATE QT_QML_DEBUG)
+
 target_link_libraries(MyApp
     PRIVATE Qt6::Quick
 )
