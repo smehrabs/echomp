@@ -1,4 +1,4 @@
-![Echo Logo](res/echo.svg)
+<img src="res/echo.svg" alt="Echo Logo" width="80%">
 
 # Echo
 
